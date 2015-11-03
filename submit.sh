@@ -1,0 +1,1 @@
+/usr/lib/spark-1.5.1-bin-2.5.0-cdh5.3.2/bin/spark-submit --master yarn-client --driver-memory 1G /usr/home/tongwei/pyspark_example/1.5.1/streaming/word_count.py 
