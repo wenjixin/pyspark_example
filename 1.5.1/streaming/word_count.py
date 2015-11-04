@@ -12,5 +12,8 @@ pairs = words.map(lambda word: (word, 1))
 wordCounts = pairs.reduceByKey(lambda x, y: x + y)
 wordCounts.pprint()
 
+pairs.count()
+
+
 ssc.start()
 ssc.awaitTermination()

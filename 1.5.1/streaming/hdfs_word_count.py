@@ -17,5 +17,3 @@ wordCounts.pprint()
 
 ssc.start()
 ssc.awaitTermination()
-
-# hdfsStreams = [for _ in range(num)]
